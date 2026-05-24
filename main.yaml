@@ -1,3 +1,4 @@
+---
 - name: Role demo
   hosts: local
   connection: local
