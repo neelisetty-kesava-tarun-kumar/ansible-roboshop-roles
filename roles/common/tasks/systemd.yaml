@@ -2,3 +2,7 @@
   ansible.builtin.template:
     src: "{{ component }}.service.j2" #By using j2 we can easily know that we are calling template file
     dest: "/etc/systemd/system/{{ component }}.service"
+
+- name: Daemon reload
+  ansible.builtin.systemd_service:
+    daemon_reload: true
