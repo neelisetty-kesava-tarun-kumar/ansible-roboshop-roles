@@ -7,3 +7,8 @@
   ansible.builtin.import_role:
     name: common
     tasks_from: nodejs_setup.yaml
+
+- name: Systemd_setup
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: systemd_setup.yaml

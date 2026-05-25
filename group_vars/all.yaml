@@ -1,2 +1,11 @@
 ansible_user: ec2-user
 ansible_password: DevOps321
+MONGODB_HOST: mongodb-dev.kesavatarun.in
+CATALOGUE_HOST: catalogue-dev.kesavatarun.in
+REDIS_HOST: redis-dev.kesavatarun.in
+USER_HOST: user-dev.kesavatarun.in
+CART_HOST: cart-dev.kesavatarun.in
+MYSQL_HOST: mysql-dev.kesavatarun.in
+SHIPPING_HOST: shipping-dev.kesavatarun.in
+RABBITMQ_HOST: rabbitmq-dev.kesavatarun.in
+PAYMENT_HOST: payment-dev.kesavatarun.in
