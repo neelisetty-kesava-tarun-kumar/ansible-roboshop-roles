@@ -4,6 +4,6 @@
     tasks_from: app_setup.yaml
 
 - name: NodeJS_setup
-  ansible.builtin.import_rule:
+  ansible.builtin.import_role:
     name: common
     tasks_from: nodejs_setup.yaml
