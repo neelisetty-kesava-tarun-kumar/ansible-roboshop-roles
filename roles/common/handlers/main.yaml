@@ -1,0 +1,5 @@
+- name: Restart "{{ component }}" #This is a handler and it will be called from tasks when we want to restart the service
+  ansible.builtin.service:
+    name: "{{ component }}"
+    state: restarted
+    enabled: yes
