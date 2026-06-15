@@ -7,7 +7,7 @@
     state: present
 
 - name: Install dependenices
+  tags:
+    - deployment
   community.general.npm:
     path: /app
-
-
