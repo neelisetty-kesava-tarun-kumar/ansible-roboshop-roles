@@ -4,7 +4,7 @@
     name: common
     tasks_from: include-vs-import.yaml
   when: os == "RedHat"
-  loops:
+  loop:
     - Ramesh
     - Suresh
     - Mahesh
