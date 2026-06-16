@@ -5,5 +5,5 @@ regions:
 hostnames:
   # This option allows displaying the public ip addresses.
   - ip-address
-
-#You can get the private IP address of the instances in us-east-1 region.
+  #You can get the private IP address of the instances in us-east-1 region.
+  - private-ip-address
