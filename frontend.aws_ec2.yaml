@@ -7,3 +7,6 @@ hostnames:
   #- ip-address
   #You can get the private IP address of the instances in us-east-1 region.
   - private-ip-address
+filters:
+  instance-state-name: running
+  tag:name: frontend-dev
