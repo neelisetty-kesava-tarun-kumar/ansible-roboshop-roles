@@ -15,5 +15,5 @@ compose:
   ansible_host: private_ip_address
 keyed_groups:
   # This creates host groups based on architecture.
-  - prefix: ""
-    key: tags.Name
+  - separator: ""
+    key: frontend
