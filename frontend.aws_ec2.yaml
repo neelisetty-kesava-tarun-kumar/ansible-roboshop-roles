@@ -16,4 +16,4 @@ compose:
 keyed_groups:
   # This creates host groups based on architecture.
   - separator: ""
-    key: frontend
+    key: tags.Component
