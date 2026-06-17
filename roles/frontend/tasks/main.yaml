@@ -33,6 +33,7 @@
     path: /etc/nginx/nginx.conf
 
 - name: Copy nginx conf file
+  throttle: 2 #Changes the values according to the requirements of the user.
   ansible.builtin.template:
     src: nginx.conf.j2
     dest: /etc/nginx/nginx.conf
